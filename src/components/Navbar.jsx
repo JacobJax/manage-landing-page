@@ -1,7 +1,16 @@
+import './Navbar.css'
 import Logo from '../assets/logo.svg'
 import Hamburger from '../assets/icon-hamburger.svg'
+import Close from '../assets/icon-close.svg'
+import { useState } from 'react'
 
 export default function Navbar() {
+   const [open, setOpen] = useState(false)
+
+   function toggleOpen () {
+      setOpen(open => !open)
+   }
+
    return(
       <nav
          className='
@@ -12,32 +21,39 @@ export default function Navbar() {
          <div className="nav-item" id="logo">
             <img src={ Logo } alt="Logo" />
          </div>
-         <div className="nav-item" id="nav-links">
+         <div className={!open ? "open" : "nav-item"} id="nav-links">
             <div id="hambuger"
                className='
                   lg:hidden
                   md:hidden
+                  cursor-pointer
                '
+               onClick={toggleOpen}
             >
-               <img src={Hamburger} alt="hamburger menu" />
+               <img src={!open ? Close : Hamburger} alt="hamburger menu" />
             </div>
             <div id="links"
-               className='
-                  hidden
-                  md:block
-               '
+               className={open && 'hidden md:block'}
             >
                <ul
                   className='
                      md:flex
                      md:gap-x-3
+                     bg-white
+                     p-3
+                     md:p-0
+                     w-72
+                     md:w-fit
+                     mx-auto
+                     rounded
+                     md:rounded-none
                   '
                >
-                  <li><a href="#pricing">Pricing</a></li>
-                  <li><a href="#product">Product</a></li>
-                  <li><a href="#about">About Us</a></li>
-                  <li><a href="#">Careers</a></li>
-                  <li><a href="#whatpeoplesay">Community</a></li>
+                  <li className='py-2'><a href="#pricing">Pricing</a></li>
+                  <li className='py-2'><a href="#product">Product</a></li>
+                  <li className='py-2'><a href="#about">About Us</a></li>
+                  <li className='py-2'><a href="#">Careers</a></li>
+                  <li className='py-2'><a href="#whatpeoplesay">Community</a></li>
                </ul>
             </div>
          </div>
