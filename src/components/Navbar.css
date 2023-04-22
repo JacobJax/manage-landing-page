@@ -6,6 +6,7 @@
    left: 0;
    background-color: rgba(28, 21, 48, 0.651);
    padding: 2rem;
+   z-index: 1;
 }
 .open #hambuger {
    display: flex;
