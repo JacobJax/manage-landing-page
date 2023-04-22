@@ -64,6 +64,8 @@ export default function Navbar() {
                      mx-auto
                      rounded
                      md:rounded-none
+                     text-center
+                     md:text-left
                   '
                >
                   <li className='py-2'><a href="#pricing">Pricing</a></li>

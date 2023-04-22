@@ -1,0 +1,19 @@
+#header {
+   color: var(--dark-blue);
+   position: relative;
+}
+#header p {
+   color: var(--dark-grayish-blue);
+}
+#header img {
+   height: 100%;
+   width: 100%;
+}
+.btn {
+   background-color: var(--bright-red);
+   color: #fff;
+   font-size: smaller;
+   font-weight: bold;
+   padding: 1em 2em;
+   border-radius: 50px;
+}
