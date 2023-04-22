@@ -13,7 +13,7 @@ export default function Navbar() {
 
    useEffect(() => {
       function handleResize() {
-         if (window.innerWidth <= 768) {
+         if (open && window.innerWidth <= 768) {
             setOpen(false);
          } else {
             setOpen(true);
