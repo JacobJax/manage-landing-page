@@ -2,16 +2,34 @@ import './Navbar.css'
 import Logo from '../assets/logo.svg'
 import Hamburger from '../assets/icon-hamburger.svg'
 import Close from '../assets/icon-close.svg'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 
 export default function Navbar() {
    const [open, setOpen] = useState(false)
 
-   function toggleOpen () {
+   function toggleOpen() {
       setOpen(open => !open)
    }
 
-   return(
+   useEffect(() => {
+      function handleResize() {
+         if (window.innerWidth <= 768) {
+            setOpen(false);
+         } else {
+            setOpen(true);
+         }
+      }
+
+      handleResize();
+
+      window.addEventListener('resize', handleResize);
+
+      return () => {
+         window.removeEventListener('resize', handleResize);
+      };
+   }, []);
+
+   return (
       <nav
          className='
             flex
@@ -19,12 +37,11 @@ export default function Navbar() {
          '
       >
          <div className="nav-item" id="logo">
-            <img src={ Logo } alt="Logo" />
+            <img src={Logo} alt="Logo" />
          </div>
          <div className={!open ? "open" : "nav-item"} id="nav-links">
             <div id="hambuger"
                className='
-                  lg:hidden
                   md:hidden
                   cursor-pointer
                '
