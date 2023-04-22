@@ -44,6 +44,8 @@ export default function Navbar() {
                className='
                   md:hidden
                   cursor-pointer
+                  mb-8
+                  md:pb-0
                '
                onClick={toggleOpen}
             >
@@ -59,8 +61,6 @@ export default function Navbar() {
                      bg-white
                      p-3
                      md:p-0
-                     w-72
-                     md:w-fit
                      mx-auto
                      rounded
                      md:rounded-none
