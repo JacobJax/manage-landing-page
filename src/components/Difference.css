@@ -18,3 +18,19 @@
    content: "0"counter(index, decimal);
    border-radius: 25px;
 }
+
+@media(max-width: 768px) {
+   :is(#difference) li {
+      position: relative;
+   }
+   :is(#difference) li::after {
+      background-color: var(--very-pale-red);
+      height: 2.6rem;
+      width: 105%;
+      right: -50px;
+      top: -7px;
+      position: absolute;
+      content: '';
+      z-index: -1;
+   }
+}
