@@ -26,8 +26,16 @@
   --very-pale-red: #fff1f1;
   --very-light-gray: #fafafa;
 }
+body {
+  overflow-x: hidden;
+}
 
 #links a {
   color: var(--dark-blue);
   font-weight: 500;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: unset;
+  font-weight: unset;
 }

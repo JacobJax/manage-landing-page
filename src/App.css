@@ -8,3 +8,9 @@
   padding: 2rem;
   position: relative;
 }
+
+@media(max-width: 640px) {
+  #root {
+    overflow: hidden;
+  }
+}
