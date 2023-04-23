@@ -9,6 +9,12 @@
    height: 100%;
    width: 100%;
 }
+#header-bg {
+   position: absolute;
+   z-index: -1;
+   top: -220px;
+   right: -220px;
+}
 .btn {
    background-color: var(--bright-red);
    color: #fff;
