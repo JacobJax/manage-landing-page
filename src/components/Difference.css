@@ -1,0 +1,36 @@
+#difference {
+   color: var(--dark-blue);
+}
+#difference p {
+   color: var(--dark-grayish-blue)
+}
+:is(#difference) ul {
+   counter-reset:index;
+}
+:is(#difference) li {
+   counter-increment: index;
+}
+:is(#difference) li::before {
+   background-color: var(--bright-red);
+   color: #fff;
+   font-weight: bold;
+   padding: .6em 1em;
+   content: "0"counter(index, decimal);
+   border-radius: 25px;
+}
+
+@media(max-width: 768px) {
+   :is(#difference) li {
+      position: relative;
+   }
+   :is(#difference) li::after {
+      background-color: var(--very-pale-red);
+      height: 2.5rem;
+      width: 105%;
+      right: -50px;
+      top: -5px;
+      position: absolute;
+      content: '';
+      z-index: -1;
+   }
+}

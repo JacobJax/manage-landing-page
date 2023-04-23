@@ -34,6 +34,7 @@ export default function Navbar() {
          className='
             flex
             justify-between
+            py-2
          '
       >
          <div className="nav-item" id="logo">
@@ -57,8 +58,9 @@ export default function Navbar() {
                <ul
                   className='
                      md:flex
-                     md:gap-x-3
+                     md:gap-x-6
                      bg-white
+                     md:bg-transparent
                      p-3
                      md:p-0
                      mx-auto
