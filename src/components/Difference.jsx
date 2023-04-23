@@ -18,7 +18,7 @@ export default function Difference() {
                   text-3xl
                   font-bold
                "
-            >Whats different about Manage?</h1>
+            >What&apos;s different about Manage?</h1>
             <p className='py-3'>Manage provides all the functionality your team need, without the complexity. Our software is tailor-made for modern digital product teams.</p>
          </div>
          <div id="difference-bottom" className='md:w-1/2'>
