@@ -7,10 +7,5 @@
   margin: 0 auto;
   padding: 2rem;
   position: relative;
-}
-
-@media(max-width: 640px) {
-  #root {
-    overflow: hidden;
-  }
+  overflow-x: hidden;
 }

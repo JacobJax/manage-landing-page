@@ -1,0 +1,43 @@
+.testimony {
+   background-color: var(--very-light-gray);
+   padding: 1.6rem;
+   padding-top: 4.6rem;
+   position: relative;
+   width: 25%;
+}
+.testimony-img img {
+   height: 6rem;
+   width: 6rem;
+}
+.testimony-img {
+   position: absolute;
+   top: -20%;
+   left: 0;
+   right: 0;
+   display: grid;
+   place-items: center;
+}
+.name, #testimonial h1 {
+   color: var(--dark-blue);
+}
+.testimony {
+   color: var(--dark-grayish-blue)
+}
+#testimony-container {
+   display: flex;
+   gap: 1rem;
+   overflow-x: scroll;
+   padding: 3.2rem 0;
+}
+@media(max-width: 768px) {
+   #testimony-container {
+      width: 400%;
+      overflow-x: scroll;
+   }
+}
+
+@media(min-width: 768px) {
+   .testimony {
+      min-width: 36rem;
+   }
+}
