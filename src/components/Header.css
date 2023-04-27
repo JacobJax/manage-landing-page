@@ -1,6 +1,7 @@
 #header {
    color: var(--dark-blue);
    position: relative;
+   padding-bottom: 2rem;
 }
 #header p {
    color: var(--dark-grayish-blue);
@@ -23,3 +24,8 @@
    padding: 1em 2em;
    border-radius: 50px;
 }
+@media(max-width: 640px) {
+   #header {
+     overflow: hidden;
+   }
+ }
