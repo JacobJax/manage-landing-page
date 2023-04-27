@@ -1,8 +1,12 @@
 #calltoaction {
    background-color: var(--bright-red);
    color: #fff;
+   padding-top: 4rem;
 }
 .btn-white {
    background-color: #fff;
    color: var(--bright-red);
 }
+/* #calltoaction h1 {
+   min-width: 24rem;
+} */

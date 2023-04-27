@@ -11,7 +11,7 @@ export default function Footer() {
       <footer className="text-white">
          <div className="container" id='footer-container'>
             <div className="footer-conten" id="update-form">
-               <form action="" className='flex justify-between max-w-md py-8'>
+               <form action="" className='flex justify-between gap-4 md:max-w-md py-8'>
                   <input type="text" className='p-2 rounded-3xl text-sm' name="email" id="email" placeholder='Updates in your inbox...' />
                   <button type='submit' className="btn">Go</button>
                </form>
@@ -41,7 +41,7 @@ export default function Footer() {
                </div>
             </div>
             <div className="footer-content" id="footer-logo">
-               <div className='grid place-items-center p-16'>
+               <div className='grid place-items-center p-16 md:p-8'>
                   <img src={Logo} alt="" />
                </div>
             </div>

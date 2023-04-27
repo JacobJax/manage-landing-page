@@ -3,7 +3,7 @@ footer {
 }
 
 :is(footer) input {
-   width: 75%;
+   width: 80%;
 }
 :is(footer) .btn {
    background-color: var(--bright-red);
@@ -29,12 +29,14 @@ footer {
    }
    #social-links {
       grid-area: socials;
+      align-self: end;
    }
    #footer-logo {
       grid-area: logo;
    }
    #copyright-message {
       grid-area: message;
+      align-self: end;
    }
    :is(footer) input {
       width: 69%;
