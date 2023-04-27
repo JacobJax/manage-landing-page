@@ -21,7 +21,8 @@
    color: var(--dark-blue);
 }
 .testimony {
-   color: var(--dark-grayish-blue)
+   color: var(--dark-grayish-blue);
+   min-width: 28rem;
 }
 #testimony-container {
    display: flex;
@@ -35,13 +36,9 @@
  
 @media(max-width: 768px) {
    #testimony-container {
-      width: 400%;
-      /* overflow-x: scroll; */
+      overflow-x: scroll;
    }
-}
-
-@media(min-width: 768px) {
    .testimony {
-      min-width: 36rem;
+      width: 25%;
    }
 }

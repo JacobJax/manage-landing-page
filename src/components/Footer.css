@@ -40,8 +40,8 @@ footer {
       width: 69%;
    }
    :is(footer) #social-links img {
-      height: 1rem;
-      width: 1rem;
+      height: 1.4rem;
+      width: 1.4rem;
    }
    #footer-logo img {
       min-height: 2rem;

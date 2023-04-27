@@ -1,5 +1,4 @@
 import HeaderImage from '../assets/illustration-intro.svg'
-import Pill from '../assets/bg-tablet-pattern.svg'
 import './Header.css'
 
 export default function Header() {
@@ -14,12 +13,7 @@ export default function Header() {
             container
          '
       >
-         <div id="header-bg">
-            <img src={Pill} alt="" />
-         </div>
-         <div id="header-img"
-            className='md:w-1/2'
-         >
+         <div id="header-img" className='md:w-1/2'>
             <img src={HeaderImage} alt="Header image" />
          </div>
          <div id="header-text"
