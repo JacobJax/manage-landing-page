@@ -10,6 +10,7 @@ export default function Difference() {
             md:justify-between
             py-16
             gap-12
+            container
          "
       >
          <div id="difference-top" className='text-center md:w-2/5 md:text-left'>
@@ -33,7 +34,7 @@ export default function Difference() {
                   <span
                      className="
                         font-bold
-                        text-lg
+                        text-md
                         pl-2
                         inline-block
                         w-fit
@@ -45,7 +46,7 @@ export default function Difference() {
                   <span
                      className="
                         font-bold
-                        text-lg
+                        text-md
                         pl-2
                         inline-block
                         w-fit
@@ -57,7 +58,7 @@ export default function Difference() {
                   <span
                      className="
                         font-bold
-                        text-lg
+                        text-md
                         pl-2
                         inline-block
                         w-fit

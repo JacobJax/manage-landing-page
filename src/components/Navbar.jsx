@@ -35,6 +35,7 @@ export default function Navbar() {
             flex
             justify-between
             py-2
+            container
          '
       >
          <div className="nav-item" id="logo">

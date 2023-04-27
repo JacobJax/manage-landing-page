@@ -11,6 +11,7 @@ export default function Header() {
             md:flex-row-reverse
             md:items-center
             md:justify-between
+            container
          '
       >
          <div id="header-bg">
