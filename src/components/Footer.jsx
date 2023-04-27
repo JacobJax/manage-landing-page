@@ -19,15 +19,15 @@ export default function Footer() {
             <div className="footer-content" id="footer-links">
                <div className='flex justify-between p-8 md:px-16'>
                   <ul>
-                     <li className='my-4'><a href="#">Home</a></li>
-                     <li className='my-4'><a href="#">Pricing</a></li>
-                     <li className='my-4'><a href="#">Products</a></li>
-                     <li className='my-4'><a href="#">About Us</a></li>
+                     <li className='mb-4'><a href="#">Home</a></li>
+                     <li className='mb-4'><a href="#">Pricing</a></li>
+                     <li className='mb-4'><a href="#">Products</a></li>
+                     <li className='mb-4'><a href="#">About Us</a></li>
                   </ul>
                   <ul>
-                     <li className='my-4'><a href="#">Careers</a></li>
-                     <li className='my-4'><a href="#">Community</a></li>
-                     <li className='my-4'><a href="#">Privacy Policy</a></li>
+                     <li className='mb-4'><a href="#">Careers</a></li>
+                     <li className='mb-4'><a href="#">Community</a></li>
+                     <li className='mb-4'><a href="#">Privacy Policy</a></li>
                   </ul>
                </div>
             </div>

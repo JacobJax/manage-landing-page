@@ -4,6 +4,7 @@ footer {
 
 :is(footer) input {
    width: 80%;
+   color: var(--dark-blue);
 }
 :is(footer) .btn {
    background-color: var(--bright-red);

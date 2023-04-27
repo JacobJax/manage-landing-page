@@ -43,7 +43,7 @@ export default function Difference() {
                         "
                      >Track company-wide progress</h3>
                      </div>
-                     <p className='my-6 lg:pl-20'>See how your day-to-day tasks fit into the wider vision. Go from tracking progress at the milesone level all the wat done to the smallest of details. Never lose sight of the bigger picture again.</p>
+                     <p className='my-4 lg:pl-20'>See how your day-to-day tasks fit into the wider vision. Go from tracking progress at the milesone level all the wat done to the smallest of details. Never lose sight of the bigger picture again.</p>
                   </div>
                   
                </li>
@@ -60,7 +60,7 @@ export default function Difference() {
                            "
                         >Advanced built-in reports</h3>
                      </div>
-                        <p className='my-6 lg:pl-20'>Set internal delivery system and track progress toward goals. Our customisable dashboard helps you build out the reports you need to keep stakeholders informed.</p>
+                        <p className='my-4 lg:pl-20'>Set internal delivery system and track progress toward goals. Our customisable dashboard helps you build out the reports you need to keep stakeholders informed.</p>
                   </div>
                </li>
                <li>
@@ -76,7 +76,7 @@ export default function Difference() {
                            "
                         >Everything you need in one place</h3>
                      </div>
-                     <p className='my-6 lg:pl-20'>Stop jumping from one service to another to communicate, store files, track tasks and share documents. Manage offers and all-in-one team productivity solution.</p>
+                     <p className='my-4 lg:pl-20'>Stop jumping from one service to another to communicate, store files, track tasks and share documents. Manage offers and all-in-one team productivity solution.</p>
                   </div>
                </li>
             </ul>
