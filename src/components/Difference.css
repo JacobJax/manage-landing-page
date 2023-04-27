@@ -1,5 +1,6 @@
 #difference {
    color: var(--dark-blue);
+   overflow-x: hidden;
 }
 #difference p {
    color: var(--dark-grayish-blue)
@@ -7,14 +8,15 @@
 :is(#difference) ul {
    counter-reset:index;
 }
-:is(#difference) li {
+:is(#difference) h3 {
    counter-increment: index;
 }
-:is(#difference) li::before {
+:is(#difference) h3::before {
    background-color: var(--bright-red);
    color: #fff;
    font-weight: bold;
    padding: .6em 1em;
+   margin-right: 1rem;
    content: "0"counter(index, decimal);
    border-radius: 25px;
 }
@@ -28,7 +30,7 @@
       height: 2.5rem;
       width: 105%;
       right: -50px;
-      top: -5px;
+      top: -.5rem;
       position: absolute;
       content: '';
       z-index: -1;

@@ -31,40 +31,53 @@ export default function Difference() {
                "
             >
                <li>
-                  <span
-                     className="
-                        font-bold
-                        text-md
-                        pl-2
-                        inline-block
-                        w-fit
-                     "
-                  >Track company-wide progress</span>
-                  <p className='my-6 lg:pl-14'>See how your day-to-day tasks fit into the wider vision. Go from tracking progress at the milesone level all the wat done to the smallest of details. Never lose sight of the bigger picture again.</p>
+                  <div className="reason">
+                     <div className="reason-top">
+                     <h3
+                        className="
+                           font-bold
+                           text-md
+                           pl-2
+                           inline-block
+                           w-fit
+                        "
+                     >Track company-wide progress</h3>
+                     </div>
+                     <p className='my-4 lg:pl-20'>See how your day-to-day tasks fit into the wider vision. Go from tracking progress at the milesone level all the wat done to the smallest of details. Never lose sight of the bigger picture again.</p>
+                  </div>
+                  
                </li>
                <li>
-                  <span
-                     className="
-                        font-bold
-                        text-md
-                        pl-2
-                        inline-block
-                        w-fit
-                     "
-                  >Advanced built-in reports</span>
-                  <p className='my-6 lg:pl-14'>Set internal delivery system and track progress toward goals. Our customisable dashboard helps you build out the reports you need to keep stakeholders informed.</p>
+                  <div className="reason">
+                     <div className="reason-top">
+                        <h3
+                           className="
+                              font-bold
+                              text-md
+                              pl-2
+                              inline-block
+                              w-fit
+                           "
+                        >Advanced built-in reports</h3>
+                     </div>
+                        <p className='my-4 lg:pl-20'>Set internal delivery system and track progress toward goals. Our customisable dashboard helps you build out the reports you need to keep stakeholders informed.</p>
+                  </div>
                </li>
                <li>
-                  <span
-                     className="
-                        font-bold
-                        text-md
-                        pl-2
-                        inline-block
-                        w-fit
-                     "
-                  >Everything you need in one place</span>
-                  <p className='my-6 lg:pl-14'>Stop jumping from one service to another to communicate, store files, track tasks and share documents. Manage offers and all-in-one team productivity solution.</p>
+                  <div className="reason">
+                     <div className="reason-top">
+                        <h3
+                           className="
+                              font-bold
+                              text-md
+                              pl-2
+                              inline-block
+                              w-fit
+                           "
+                        >Everything you need in one place</h3>
+                     </div>
+                     <p className='my-4 lg:pl-20'>Stop jumping from one service to another to communicate, store files, track tasks and share documents. Manage offers and all-in-one team productivity solution.</p>
+                  </div>
                </li>
             </ul>
          </div>

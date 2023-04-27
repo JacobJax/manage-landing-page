@@ -1,5 +1,4 @@
 import HeaderImage from '../assets/illustration-intro.svg'
-import Pill from '../assets/bg-tablet-pattern.svg'
 import './Header.css'
 
 export default function Header() {
@@ -14,12 +13,7 @@ export default function Header() {
             container
          '
       >
-         <div id="header-bg">
-            <img src={Pill} alt="" />
-         </div>
-         <div id="header-img"
-            className='md:w-1/2'
-         >
+         <div id="header-img" className='md:w-1/2'>
             <img src={HeaderImage} alt="Header image" />
          </div>
          <div id="header-text"
@@ -43,7 +37,7 @@ export default function Header() {
                   text-xl
                '
             >Manage makes it simple for software teams to plan day-to-day tasks while keeping the larger team goals in view.</p>
-            <div id="header-btn" className='p-1'>
+            <div id="header-btn" className='p-2'>
                <a href="#" className="btn shadow-lg">Get Started</a>
             </div>
          </div>
