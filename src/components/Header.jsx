@@ -37,7 +37,7 @@ export default function Header() {
                   text-xl
                '
             >Manage makes it simple for software teams to plan day-to-day tasks while keeping the larger team goals in view.</p>
-            <div id="header-btn" className='p-1'>
+            <div id="header-btn" className='p-2'>
                <a href="#" className="btn shadow-lg">Get Started</a>
             </div>
          </div>
