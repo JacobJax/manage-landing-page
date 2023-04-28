@@ -38,6 +38,9 @@ export default function Navbar() {
             container
          '
       >
+         <div className="bg" id='header-bg'>
+            <img src="" alt="" />
+         </div>
          <div className="nav-item" id="logo">
             <img src={Logo} alt="Logo" />
          </div>

@@ -28,7 +28,7 @@
   --very-light-gray: #fafafa;
 }
 body {
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
 }
 
 #links a {

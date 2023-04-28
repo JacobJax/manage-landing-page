@@ -2,7 +2,7 @@ import './Testimonial.css'
 
 export default function Testimony(props) {
    return(
-      <div className="testimony rounded-md">
+      <div className="testimony rounded-md drop-shadow-md">
          <div className="testimony-img">
             <img src={ props.item.imageUrl } alt={ `${props.item.name} Avatar` } />
          </div>

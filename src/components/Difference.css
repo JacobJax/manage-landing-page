@@ -1,6 +1,9 @@
 #difference {
    color: var(--dark-blue);
-   overflow-x: hidden;
+   overflow: visible;
+}
+#difference .container {
+   position: relative;
 }
 #difference p {
    color: var(--dark-grayish-blue)

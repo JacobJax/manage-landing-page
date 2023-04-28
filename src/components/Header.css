@@ -1,7 +1,10 @@
 #header {
    color: var(--dark-blue);
-   position: relative;
    padding-bottom: 2rem;
+}
+#header .container {
+   position: relative;
+   overflow: visible;
 }
 #header p {
    color: var(--dark-grayish-blue);
@@ -9,12 +12,6 @@
 #header img {
    height: 100%;
    width: 100%;
-}
-#header-bg {
-   position: absolute;
-   z-index: -1;
-   top: -220px;
-   right: -220px;
 }
 .btn {
    background-color: var(--bright-red);
@@ -29,8 +26,3 @@
    transition: all 0.3s ease-in-out 0s;
    background-color: var(--red-hover);
 }
-@media(max-width: 640px) {
-   #header {
-     overflow: hidden;
-   }
- }

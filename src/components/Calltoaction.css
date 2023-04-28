@@ -2,6 +2,9 @@
    background-color: var(--bright-red);
    color: #fff;
 }
+#calltoaction .h-bg {
+   position: relative;
+}
 .btn-white {
    background-color: #fff;
    color: var(--bright-red);
