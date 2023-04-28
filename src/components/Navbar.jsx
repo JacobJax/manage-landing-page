@@ -41,7 +41,7 @@ export default function Navbar() {
          <div className="nav-item" id="logo">
             <img src={Logo} alt="Logo" />
          </div>
-         <div className={!open ? "open" : "nav-item"} id="nav-links">
+         <div className={!open ? "open" : "nav-item md:w-10/12"} id="nav-links">
             <div id="hambuger"
                className='
                   md:hidden
@@ -54,7 +54,7 @@ export default function Navbar() {
                <img src={!open ? Close : Hamburger} alt="hamburger menu" />
             </div>
             <div id="links"
-               className={open && 'hidden md:block'}
+               className={open && 'hidden md:flex md:items-center md:justify-between md:w-full'}
             >
                <ul
                   className='
@@ -77,6 +77,9 @@ export default function Navbar() {
                   <li className='py-2'><a href="#">Careers</a></li>
                   <li className='py-2'><a href="#whatpeoplesay">Community</a></li>
                </ul>
+               <div className={!open && 'hidden'} id='nav-btn'>
+                  <a href="#" className="btn">Get started</a>
+               </div>
             </div>
          </div>
       </nav>

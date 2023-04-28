@@ -14,11 +14,11 @@ export default function Testimonial() {
 
    return(
       <section id="testimonial" className='text-center container'>
-         <h1 className='text-center text-4xl font-bold mb-16'>What they&apos;ve said</h1>
+         <h1 className='text-center text-4xl font-bold mb-8'>What they&apos;ve said</h1>
          <div id="testimony-container" className=''>
             { testimon }
          </div>
-         <a href="#" className="btn">Get started</a>
+         <a href="#" className="btn shadow-lg">Get started</a>
       </section>
    )
 }

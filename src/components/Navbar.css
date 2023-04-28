@@ -12,6 +12,9 @@
    display: flex;
    justify-content: flex-end;
 }
+nav #links .btn {
+   color: #fff;
+}
 
 @media (min-width: 768px) {
    .open {
