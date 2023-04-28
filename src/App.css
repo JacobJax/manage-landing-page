@@ -2,6 +2,30 @@
 
 #root {
   font-family: 'Be Vietnam Pro', sans-serif;
-  position: relative;
   width: 100%;
+  overflow: hidden;
+}
+#header-bg {
+  position: absolute;
+  z-index: -1;
+  top: -280px;
+  right: -160px;
+}
+#difference-bg {
+  position: absolute;
+  z-index: -1;
+  bottom: -520px;
+  left: -420px;
+}
+#call-bg-right {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 20px;
+}
+#call-bg-left {
+  position: absolute;
+  z-index: -1;
+  top: 10;
+  right: 50px;
 }

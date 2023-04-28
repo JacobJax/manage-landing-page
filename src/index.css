@@ -20,6 +20,7 @@
 
   /* set variables */
   --bright-red: #ff3b3b;
+  --red-hover: #ff8686;
   --dark-blue: #0d1c33;
   --dark-grayish-blue: #717a85;
   --very-dark-blue: #050505;
@@ -27,7 +28,7 @@
   --very-light-gray: #fafafa;
 }
 body {
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
 }
 
 #links a {
